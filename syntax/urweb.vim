@@ -12,6 +12,7 @@ endif
 
 syn match  Include '{[^}]*}' containedin=xmlTag,xmlTagName,xmlAttrib
 
+syn region  Comment	start="(\*" end="\*)"
 
 " fun, and, view, table, class
 syn keyword Statement   case con constraint constraints datatype else end extern fn map functor if include of open let in rec sequence sig signature cookie style task policy struct structure then type val where with
